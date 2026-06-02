@@ -3,7 +3,7 @@ import {useEffect,useState} from "react";
 export default function App(){
  const [ads,setAds]=useState([]);
  const [cat,setCat]=useState("All");
- useEffect(()=>{fetch("/ads.json").then(r=>r.json()).then(setAds)},[]);
+ useEffect(()=>{fetch("./ads.json").then(r=>r.json()).then(setAds)},[]);
  const cats=["All",...new Set(ads.map(a=>a.category))];
  const filtered=cat==="All"?ads:ads.filter(a=>a.category===cat);
  return <div style={{fontFamily:"Arial",padding:20,maxWidth:1000,margin:"auto"}}>
