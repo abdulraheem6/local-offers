@@ -1,0 +1,6 @@
+
+[
+ {"id":1,"title":"Electronics Mega Sale","category":"Electronics","featured":true,"type":"image","images":["https://picsum.photos/900/400?1","https://picsum.photos/900/400?2"],"whatsapp":"919999999999"},
+ {"id":2,"title":"Restaurant Offer","category":"Food","type":"youtube","youtubeId":"dQw4w9WgXcQ","whatsapp":"919999999999"},
+ {"id":3,"title":"Fashion Discount","category":"Fashion","type":"video","video":"https://www.w3schools.com/html/mov_bbb.mp4","whatsapp":"919999999999"}
+]
